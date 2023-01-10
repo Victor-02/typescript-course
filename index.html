@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeScript</title>
+    <style>
+      body {
+        margin: 2rem;
+        font-family: sans-serif;
+      }
+      table {
+        border-spacing: 0px;
+        text-align: left;
+      }
+      table th,
+      table td {
+        padding: 0.5rem 1rem;
+      }
+      table tr:nth-child(even) {
+        background-color: ghostwhite;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Estatísticas</h1>
+    <p id="total">Total: <span></span></p>
+    <hr />
+
+    <p id="credito">Cartão de Crédito: <span></span></p>
+    <p id="boleto">Boleto: <span></span></p>
+    <hr />
+
+    <p id="paga">Paga: <span></span></p>
+    <p id="recusada">Recusada pela operadora de cartão: <span></span></p>
+    <p id="estornada">Estornada: <span></span></p>
+    <p id="aguardando">Aguardando Pagamento: <span></span></p>
+    <hr />
+    <h1>Dados</h1>
+    <table id="table">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Data</th>
+          <th>Valor</th>
+          <th>Pagamento</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+  <script type="module" src="./script.js"></script>
+</html>
